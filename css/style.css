@@ -2,49 +2,72 @@ html, body {
     width: 100%;
     height: 100%;
 }
-.hero-image {
-	position: absolute;
-	background-image: url('../img/header.png');
-	background-color:#D9F0FF;
-	height: 900px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
-.hero-text {
-	position: absolute;
-	height: 20%;
-    width: 40%;
-	top: 50%
-	left: 50%
-	transform: translate(-50%, -50%);
-	align: justify-content;
-	color: #fff;
-}
-.d-flex {
-	display: flex;
-	justify-content: space-between;
-}
-.logo {
-	width: 118px;
-    position: absolute;
-    top: 60px;
-    left: 70px;
+.banner-image {
+    width: 100%;
+    max-height: 900px;
+    position: relative;
 }
 .navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: absolute;
-    top: 80px;
-    right: 143px;
+    top: 50px;
+    left: 50px;
 }
 .nav-ul {
-	display: flex;
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 .nav-li {
-    margin-right: 50px;
-    white-space: nowrap;
-    font-weight: bold;
-    text-transform: uppercase;
+    margin-right: 100px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+
+.h2 {
+    font-size: 28px;
+    margin-left: 5%;
+    color: #fff;
+}
+.title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 100px;
+}
+.banner-text {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.button1 {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    width: 200px;
+    height: 50px;
+    background-color: #325DFF;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 40px;
 }
 /*Section 1*/
 .container1 {
@@ -137,9 +160,6 @@ html, body {
     box-shadow: 0px 0px 0px 0.2px #888888;
     margin-top: 30px;
 }
-.relative {
-    position: relative;
-}
 .icon-button {
     top: 20%;
     left: 50%;
@@ -163,9 +183,7 @@ html, body {
     font-size: 18px;
     margin-bottom: 20px;
 }
-.absolute {
-    position: absolute;
-}
+
 .box-p {
     top: 70%;
     left: 50%;
@@ -204,7 +222,6 @@ html, body {
 }
 
     /*Section 2-3 - End*/
-
 
 	/*Section 4*/
 .section4-h5 {
@@ -279,6 +296,7 @@ html, body {
     display: flex;
 }
 /*Section 6 - End*/
+
 /*Footer*/
 .footer {
     width: 100%;
